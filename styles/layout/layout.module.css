@@ -1,0 +1,56 @@
+.mainContainer {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    position: relative;
+}
+
+.mobileContainer {
+    width: 95%;
+}
+
+.contentContainer {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.checkListContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 999;
+    gap: 10px;
+}
+
+.checkListImage:last-child {
+    background-color: #6248FF;
+}
+
+.checkListImage {
+    background-color: #0E8CFF;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}

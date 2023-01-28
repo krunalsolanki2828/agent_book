@@ -1,0 +1,80 @@
+.columnContainer {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.titleContainer {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.count {
+    color: #7b808b;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.imageIcon {
+    cursor: pointer;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    overflow: scroll;
+}
+
+.cardContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.addTodoContainer {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    margin-inline: 8px;
+    margin-block-start: 10px;
+    color: #118cff;
+    border: 2px solid #d9dbdf;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+
+    .columnContainer {
+        width: 50%;
+        min-width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .columnContainer{
+        width: 100%;
+        min-width: 100%;
+    }
+
+}

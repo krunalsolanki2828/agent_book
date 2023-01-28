@@ -1,0 +1,72 @@
+.createContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    border-top: 2px solid #0E8CFF;
+    padding-block: 15px;
+    padding-inline: 10px;
+    width: 16.2vw;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainer>span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6a6f7a;
+
+}
+
+.titleContainer > img {
+    cursor: pointer;
+}
+
+.textArea {
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid #eaeaea;
+    padding: 10px;
+}
+
+.projectContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.selectContainer{
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border:2px solid #eaeaea ;
+}
+
+.button{
+    background-color: #0E8CFF;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+
+    .createContainer {
+        width: 99%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .createContainer{
+        width: 65vw;
+    }
+
+}

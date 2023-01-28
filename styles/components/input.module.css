@@ -1,0 +1,14 @@
+.inputContainer{
+    border: 1px solid #eaeaea;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+.inputContainer > img{
+    margin-right: 3px;
+}
+.inputContainer> input{
+    border: none;
+    outline: none;
+}

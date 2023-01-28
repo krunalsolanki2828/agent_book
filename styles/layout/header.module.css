@@ -1,0 +1,110 @@
+.headerContainer{
+    padding: 16px 18px;
+    border-bottom: 2px solid #eaeaea;   
+    display: flex;
+    align-items: center;
+}
+
+.leftContainer{
+    display: flex;
+    align-items: center;
+}
+
+.profileContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.badgeContainer{
+    padding: 5px 10px;
+    background-color: #eaeaea;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.badge{
+    display: flex;
+    align-items: center;
+}
+.divider{
+    height: 25px;
+    width: 2px;
+    background-color: #d9dadd;
+    margin: 0px 10px;
+}
+
+.arrowContainer{
+    border: 1px solid #eaeaea;   
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.rightContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inputContainer{
+    flex: 1;
+    margin-right: 8px;
+}
+.imageContainer{
+    display: flex;
+    align-items: center;
+}
+
+.tabletSearch{
+    display: none;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .inputContainer{
+        display: none;
+    }
+
+    .headerContainer{
+        padding: 17px 14px;
+    }
+
+    .tabletSearch{
+        display: block;
+    }
+    .rightContainer{
+        justify-content: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .inputContainer{
+        display: none;
+    }
+
+    .leftContainer{
+        display: none;
+    }
+    .headerContainer{
+        padding: 19.5px 10px;
+    }
+
+     .rightContainer{
+        justify-content: space-between;
+    }
+
+    .imageContainer>div:nth-child(4){
+        height: auto;
+        width: auto;
+        margin-left: 10px;
+    }
+   
+
+    .tabletSearch{
+        display: block;
+    }
+}

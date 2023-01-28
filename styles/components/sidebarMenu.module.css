@@ -1,0 +1,28 @@
+.menuContainer {
+    display: flex;
+    padding: 13px 15px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-inline: 10px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu>img {
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+.menuTitle {
+    color: #6A6F7A;
+}
+
+.menuContainer:hover {
+    background-color: #F6F6FF;
+    border-radius: 5px;
+    margin-inline: 10px;
+}
