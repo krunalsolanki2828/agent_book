@@ -7,7 +7,7 @@ import Sidebar from './sidebar'
 
 const Layout = ({ children }) => {
 
-	const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
 	return (
 		<div className={styles.mainContainer}>
